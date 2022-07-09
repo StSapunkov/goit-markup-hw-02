@@ -1,7 +1,7 @@
 body{
     background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+        
 }
 
 .page-header{
@@ -9,35 +9,56 @@ body{
 }
 
 .logo{
+    font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-lab{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+
 }
 
 .link{
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 
 .link-item{
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 .link:hover,
 .link-item:hover,
 .link:focus,
 .link-item:focus{
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #2196F3;
 
+}
+
+.items{
+    list-style: none;
 }
 
 .main{
@@ -45,6 +66,11 @@ body{
 }
 
 .title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -55,23 +81,42 @@ body{
 }
 
 .subtitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #212121;
 }
 
 .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
 .dsr{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 
 .staff-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .staff-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -81,11 +126,19 @@ body{
 }
 
 .content{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .buttons{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
 
@@ -100,13 +153,20 @@ body{
 }
 
 .text-dcr{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 
 }
 
 .text-dcr-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
-
+    letter-spacing: 0.03em;
+    
 }
